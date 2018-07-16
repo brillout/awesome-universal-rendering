@@ -114,7 +114,7 @@ Leading to the following techniques:
 - [Pre-Rendering](#pre-rendering)
   - [Dynamic Pre-Rendering](#dynamic-pre-rendering)
     - [SaaS](#saas)
-    - [Libraries](#libraries)
+    - [Libraries](#libraries-2)
   - [Static Pre-Rendering](#static-pre-rendering)
 - [Static Site Generators](#static-site-generators)
 
