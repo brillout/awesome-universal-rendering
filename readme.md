@@ -1,4 +1,4 @@
-# Awesome SSR  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome SSR [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 A comprehensive list of techniques and tools to render JavaScript apps to HTML,
 and a curated list of learning material.
