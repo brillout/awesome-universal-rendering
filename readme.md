@@ -5,7 +5,7 @@ and a curated list of learning material.
 
 Includes resources for Server-Side Rendering (SSR) as well as for Pre-Rendering and Static Site Generators.
 
-Read the [Introduction](#introduction) for an explanation of SSR, Pre-Rendering, and Static Site Generators.
+Read the [Introduction](#introduction) for an explanation of what this is about, SSR, Pre-Rendering, and Static Site Generators.
 
 #### Contents
 
@@ -41,7 +41,7 @@ rather than to rely on Google's crawler to execute your website's JavaScript.
 
 ###### SMO
 
-The cralwer of social media sites (Facebook, Twitter, ...) don't execute JavaScript and rely solely on HTML.
+The crawler of social media sites (Facebook, Twitter, ...) don't execute JavaScript and rely solely on HTML.
 
 If you want your website to be correctly previewed when a user shares your website, then the corresponding `<meta>` tags need to be included in your website's HTML.
 
@@ -161,8 +161,8 @@ Frameworks to generate static sites.
  - [Gatsby.js](https://github.com/gatsbyjs/gatsby) - Static site generator based on React and GraphQL.
  - [React Static](https://github.com/nozzle/react-static) - Static site generator based on React and focused on simplicity.
  - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
- - [Next.js](https://github.com/zeit/next.js) - Although primarly focused on SSR, Next.js also supports SR.
- - [Reframe](https://github.com/reframejs/reframe) - Reframe supports SR.
+ - [Next.js](https://github.com/zeit/next.js) - Although primarily focused on SSR, Next.js can also generate static sites.
+ - [Reframe](https://github.com/reframejs/reframe) - Reframe can generate static sites.
 
 
 
