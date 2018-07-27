@@ -98,6 +98,7 @@ Leading to the following techniques:
  - [Deliver search-friendly JavaScript-powered websites (Google I/O '18)](https://www.youtube.com/watch?v=PFwUbgvpdaQ) - Talk that mentions how the Google crawler executes JavaScript.
  - [The Complete Guide for SSR with Vue](https://ssr.vuejs.org/) - Official guide.
  - [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8)
+ - [Reactjs SSR Tips and Tricks](https://medium.com/@atahani/reactjs-ssr-tips-and-tricks-be9edff5b7bb)
 
 ## Tools
 
