@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "docs": "mdocs"
+  },
+  "devDependencies": {
+    "@brillout/mdocs": "^0.1.15"
+  }
+}

@@ -26,12 +26,14 @@ Such JavaScript-generated-content is invisible to crawlers that don't execute Ja
 Server-Side Rendering (SSR), Pre-Rendering, and Static Site Generators are techniques to render JavaScript-generated-content to HTML.
 That makes the content visible to crawlers and also improves performance.
 
+#### Contents
+
 - [SEO](#seo)
 - [SMO](#smo)
 - [Performance](#performance)
 - [Techniques](#techniques)
 
-###### SEO
+### SEO
 
 The Google crawler is
 the only crawler that executes JavaScript.
@@ -43,7 +45,7 @@ Also, Google's capability to execute JavaScript has limitations.
 It is safer to include your content to your website's HTML
 rather than to rely on Google's crawler to execute your website's JavaScript.
 
-###### SMO
+### SMO
 
 The crawler of social media sites (Facebook, Twitter, ...) don't execute JavaScript and rely solely on HTML.
 
@@ -51,7 +53,7 @@ If you want your website to be correctly previewed when a user shares your websi
 
 (SMO means "Social Media Optimization".)
 
-###### Performance
+### Performance
 
 Rendering your website's pages to HTML decreases the perceived loading time:
 Once the HTML is loaded, content can already be displayed before any JavaScript is loaded/executed.
@@ -59,7 +61,7 @@ Once the HTML is loaded, content can already be displayed before any JavaScript 
 The improvement is considerable on mobile
 where loading/executing JavaScript is much slower.
 
-###### Techniques
+### Techniques
 
 There are two ways to render JavaScript-generated-content to HTML:
 
@@ -109,24 +111,30 @@ Leading to the following techniques:
 
 #### Contents
 
-- [SSR](#ssr)
-  - [React](#react)
-    - [Frameworks](#frameworks)
-    - [Libraries](#libraries)
-  - [Vue](#vue)
-    - [Frameworks](#frameworks-1)
-    - [Libraries](#libraries-1)
-  - [Angular](#vue)
-- [Pre-Rendering](#pre-rendering)
-  - [Dynamic Pre-Rendering](#dynamic-pre-rendering)
-    - [SaaS](#saas)
-    - [Libraries](#libraries-2)
-  - [Static Pre-Rendering](#static-pre-rendering)
-- [Static Site Generators](#static-site-generators)
+- [React](#react)
+  - [SSR](#ssr)
+  - [Static Site Generators](#static-site-generators)
+  - [Pre-Rendering](#pre-rendering)
 
-### SSR
+- [Vue](#vue)
+  - [SSR](#ssr-1)
+  - [Static Site Generators](#static-site-generators-1)
+  - [Pre-Rendering](#pre-rendering-1)
 
-#### React
+- [Angular](#angular)
+  - [SSR](#ssr-2)
+  - [Pre-Rendering](#pre-rendering-2)
+
+- [View Library Agnostic](#view-library-agnostic)
+  - [Static Site Generators](#static-site-generators-2)
+  - [Pre-Rendering](#pre-rendering-3)
+
+
+
+
+### React
+
+#### SSR
 
 ##### Frameworks
 
@@ -140,8 +148,28 @@ Leading to the following techniques:
  - [Razzle](https://github.com/jaredpalmer/razzle) - Handles the building. You do the rest.
  - [React Universal Component](https://github.com/faceyspacey/react-universal-component) - Utility to code split your SSR app.
 
+#### Static Site Generators
 
-#### Vue
+ - [Gatsby.js](https://github.com/gatsbyjs/gatsby) - Static site generator based on React and GraphQL.
+ - [React Static](https://github.com/nozzle/react-static) - Static site generator based on React and focused on simplicity.
+ - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
+ - [Next.js](https://github.com/zeit/next.js) - Although primarily focused on SSR, Next.js can also generate static sites.
+ - [Reframe](https://github.com/reframejs/reframe) - Reframe can generate static sites.
+
+#### Pre-Rendering
+
+!INLINE ./prerender-dynamic.md --hide-source-path
+
+!INLINE ./prerender-static.md --hide-source-path
+ - [React Snapshot](https://github.com/geelen/react-snapshot) - Pre-render React apps at build-time. Uses `require('react-dom/server').renderToString` to generate the HTML and uses JSDOM as headless browser to automatically discover your app's URLs.
+
+
+
+
+
+### Vue
+
+#### SSR
 
 ##### Frameworks
 
@@ -152,57 +180,47 @@ Leading to the following techniques:
 
  - [vue-server-renderer](https://www.npmjs.com/package/vue-server-renderer) - Official library for SSR with Vue.
 
-#### Angular
+#### Static Site Generators
+
+ - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
+ - [Reframe](https://github.com/reframejs/reframe) - Reframe can generate static sites and can be used with Vue.
+
+#### Pre-Rendering
+
+!INLINE ./prerender-dynamic.md --hide-source-path
+
+!INLINE ./prerender-static.md --hide-source-path
+
+
+
+
+
+
+### Angular
+
+#### SSR
 
  - [Angular Universal](https://github.com/angular/universal) - Official packages for SSR with Angular.
 
+#### Pre-Rendering
+
+!INLINE ./prerender-dynamic.md --hide-source-path
+
+!INLINE ./prerender-static.md --hide-source-path
 
 
 
 
-### Static Site Generators
+### View Library Agnostic
 
-Frameworks to generate static sites.
+#### Static Site Generators
 
- - [Gatsby.js](https://github.com/gatsbyjs/gatsby) - Static site generator based on React and GraphQL.
- - [React Static](https://github.com/nozzle/react-static) - Static site generator based on React and focused on simplicity.
  - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
- - [Next.js](https://github.com/zeit/next.js) - Although primarily focused on SSR, Next.js can also generate static sites.
  - [Reframe](https://github.com/reframejs/reframe) - Reframe can generate static sites.
 
+#### Pre-Rendering
 
+!INLINE ./prerender-dynamic.md --hide-source-path
 
-
-
-### Pre-Rendering
-
-#### Dynamic Pre-Rendering
-
-Automatically and regularly render your deployed website to HTML.
-
-##### SaaS
-
- - [Prerender.io](https://prerender.io/)
- - [SEO4Ajax](https://www.seo4ajax.com/)
- - [Prerender.cloud](https://www.prerender.cloud/)
- - [SEO.js](http://getseojs.com/)
- - [BromBone](https://www.brombone.com/)
-
-##### Libraries
-
- - [Prerender.io Node Server](https://github.com/prerender/prerender) - The prerender.io Node Server is open source.
-
-#### Static Pre-Rendering
-
-Render your pages to HTML at build-time.
-
- - [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin) - Uses Puppeteer to crawl & render your pages.
- - [react-snap](https://github.com/stereobooster/react-snap) - Uses Puppeteer to crawl & render your pages.
- - [prep](https://github.com/prismagraphql/prep) - Uses Chromeless to crawl & render your pages.
- - [Static site generator webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
- - [React Snapshot](https://github.com/geelen/react-snapshot) - Pre-render React apps at build-time. Uses `require('react-dom/server').renderToString` to generate the HTML and uses JSDOM as headless browser to automatically discover your app's URLs.
-
-
-
-
+!INLINE ./prerender-static.md --hide-source-path
 
