@@ -20,6 +20,7 @@ which are explained in the [Introduction](#introduction).
 
 <br/>
 <br/>
+
 ## Introduction
 
 Modern frontends (React, Vue, Angular, ...) use JavaScript to load and display content.
@@ -104,6 +105,7 @@ Leading to the following techniques:
 
 <br/>
 <br/>
+
 ## Learning Material
 
  - [Deliver search-friendly JavaScript-powered websites (Google I/O '18)](https://www.youtube.com/watch?v=PFwUbgvpdaQ) - Talk that mentions how the Google crawler executes JavaScript.
@@ -113,6 +115,7 @@ Leading to the following techniques:
 
 <br/>
 <br/>
+
 ## Tools
 
 #### Contents
@@ -137,6 +140,8 @@ Leading to the following techniques:
 
 
 
+
+<br/>
 
 ### React
 
@@ -173,6 +178,8 @@ Leading to the following techniques:
 
 
 
+<br/>
+
 ### Vue
 
 #### SSR
@@ -202,6 +209,8 @@ Leading to the following techniques:
 
 
 
+<br/>
+
 ### Angular
 
 #### SSR
@@ -216,6 +225,8 @@ Leading to the following techniques:
 
 
 
+
+<br/>
 
 ### View Library Agnostic
 
