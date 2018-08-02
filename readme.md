@@ -95,6 +95,8 @@ which are explained in the [Introduction](#introduction).
 - [Tools](#tools)
 
 
+<br/>
+<br/>
 ## Introduction
 
 Modern frontends (React, Vue, Angular, ...) use JavaScript to load and display content.
@@ -177,6 +179,8 @@ Leading to the following techniques:
   If your content may only change at deploy-time, then using a Static Site Generator is an option.
 
 
+<br/>
+<br/>
 ## Learning Material
 
  - [Deliver search-friendly JavaScript-powered websites (Google I/O '18)](https://www.youtube.com/watch?v=PFwUbgvpdaQ) - Talk that mentions how the Google crawler executes JavaScript.
@@ -184,6 +188,8 @@ Leading to the following techniques:
  - [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8)
  - [Reactjs SSR Tips and Tricks](https://medium.com/@atahani/reactjs-ssr-tips-and-tricks-be9edff5b7bb)
 
+<br/>
+<br/>
 ## Tools
 
 #### Contents

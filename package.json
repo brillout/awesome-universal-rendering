@@ -4,6 +4,6 @@
     "docs": "mdocs"
   },
   "devDependencies": {
-    "@brillout/mdocs": "^0.1.15"
+    "@brillout/mdocs": "^0.1.20"
   }
 }

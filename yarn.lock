@@ -15,9 +15,9 @@
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@brillout/format-text/-/format-text-0.1.1.tgz#13cd49bf966fc82727c0c62e003fcdc05fb052f8"
 
-"@brillout/mdocs@^0.1.15":
-  version "0.1.19"
-  resolved "https://registry.yarnpkg.com/@brillout/mdocs/-/mdocs-0.1.19.tgz#bcdc953061535dde5e89a8a38ad9b3edd1db5875"
+"@brillout/mdocs@^0.1.20":
+  version "0.1.20"
+  resolved "https://registry.yarnpkg.com/@brillout/mdocs/-/mdocs-0.1.20.tgz#d04f74139b93876350d8137662a89bf8b756e7ae"
   dependencies:
     "@brillout/find-package-files" "^0.1.0"
     find-up "^2.1.0"
