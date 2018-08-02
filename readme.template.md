@@ -3,13 +3,13 @@
 Comprehensive list of resources to render JavaScript-generated-content to HTML.
 To improve SEO, SMO, and performance.
 
-The techniques to render JavaScript-generated-content to HTML are
+The techniques to render JavaScript-generated-content to HTML are:
 
- - Server-Side Rendering (SSR),
- - Pre-Rendering, and
+ - Server-Side Rendering (SSR)
+ - Pre-Rendering
  - Static Site Generators
 
-which are explained in the [Introduction](#introduction).
+They are explained in the [Introduction](#introduction).
 
 #### Contents
 
