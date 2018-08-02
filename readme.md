@@ -1,11 +1,11 @@
 # Awesome SSR [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A comprehensive list of techniques and tools to render JavaScript apps to HTML,
-and a curated list of learning material.
+A comprehensive list of techniques and tools to render JavaScript apps to HTML.
+And a curated list of learning material.
 
-Includes resources for Server-Side Rendering (SSR) as well as for Pre-Rendering and Static Site Generators.
+Includes resources for Server-Side Rendering (SSR), Pre-Rendering, and Static Site Generators.
 
-Read the [Introduction](#introduction) for an explanation of what this is about, SSR, Pre-Rendering, and Static Site Generators.
+Read the [Introduction](#introduction) for an explanation of SSR, Pre-Rendering, and Static Site Generators.
 
 #### Contents
 
