@@ -227,11 +227,13 @@ Leading to the following techniques:
  - [After.js](https://github.com/jaredpalmer/after.js) - Similar to Next.js but with routing based on React Router.
  - [React Server](https://github.com/redfin/react-server)
  - [Reframe](https://github.com/reframejs/reframe) - Does SSR by default.
+ - [Fusion.js](https://github.com/fusionjs) - Plugin-based universal web framework maintained by Uber.
 
 ##### Libraries
 
  - [Razzle](https://github.com/jaredpalmer/razzle) - Handles the building. You do the rest.
  - [React Universal Component](https://github.com/faceyspacey/react-universal-component) - Utility to code split your SSR app.
+ - [Rogue.js](https://github.com/alidcastano/rogue.js) - SSR utilities focused on flexibility. First-class support for React Router, Apollo GraphQL, Redux, Emotion, and Styled-Components. The build step is up to you (but you can use Razzle.)
 
 #### Static Site Generators
 
