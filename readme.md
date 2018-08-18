@@ -77,7 +77,7 @@
 -->
 # Awesome SSR [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-Comprehensive list of resources to render JavaScript-generated-content to HTML.
+Comprehensive list of resources (tools and learning material) to render JavaScript-generated-content to HTML.
 To improve SEO, SMO, and performance.
 
 The techniques to render JavaScript-generated-content to HTML are:
@@ -101,10 +101,11 @@ They are explained in the [Introduction](#introduction).
 ## Introduction
 
 Modern frontends (React, Vue, Angular, ...) use JavaScript to load and display content.
-Such JavaScript-generated-content is invisible to crawlers that don't execute JavaScript which is the case for most crawlers.
-
+Such JavaScript-generated-content is invisible to crawlers that don't execute JavaScript.
+Most crawlers don't execute JavaScript.
 Server-Side Rendering (SSR), Pre-Rendering, and Static Site Generators are techniques to render JavaScript-generated-content to HTML.
-That makes the content visible to crawlers and also improves performance.
+Making the content visible to crawlers.
+It also improves performance.
 
 #### Contents
 
@@ -118,10 +119,10 @@ That makes the content visible to crawlers and also improves performance.
 The Google crawler is
 the only crawler that executes JavaScript.
 All other crawlers rely on HTML exclusively.
-If you want your content to be crawled by all other search engines (Bing, Baidu, DuckDuckGo, ...), then your content needs to be included in your website's HTML.
+If you want your content to be crawled by all other search engines (Bing, Baidu, DuckDuckGo, etc.), then your content needs to be included in your website's HTML.
 
 Also, Google's capability to execute JavaScript has limitations.
-(See the Google I/O '18 talk "Deliver search-friendly JavaScript-powered websites" linked in the "Learning Material" section.)
+(See the Google I/O '18 talk [Deliver search-friendly JavaScript-powered websites](https://www.youtube.com/watch?v=PFwUbgvpdaQ).)
 It is safer to include your content to your website's HTML
 rather than to rely on Google's crawler to execute your website's JavaScript.
 
@@ -175,7 +176,7 @@ Leading to the following techniques:
   A static website is a website that doesn't have any server code:
   The website is composed of static browser assets only (HTML, CSS, JavaScript, images, ...).
   Some generators can directly render views to HTML:
-  When your website is built, each page is rendered to a HTML file that includes all the page's views.
+  When your website is built, each page is rendered to a HTML file that includes all the page's content.
   <br/>
   If your content may only change at deploy-time, then using a Static Site Generator is an option.
 
