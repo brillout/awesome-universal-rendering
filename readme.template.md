@@ -1,8 +1,10 @@
 # Awesome Universal Rendering [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-Comprehensive and curated list of resources about universal rendering. Including:
+Awesome resources about universal rendering. Including:
  - Tools (SSR, SSG, Pre-rendering)
  - Learning Material (SEO benefits, performance benefits, how to implement, etc.)
+
+<br/>
 
 #### Contents
 
@@ -10,8 +12,6 @@ Comprehensive and curated list of resources about universal rendering. Including
 - [Learning Material](#learning-material)
 - [Tools](#tools)
 
-
-<br/>
 <br/>
 
 ## Introduction
@@ -113,14 +113,10 @@ Leading to the following techniques:
 
 ## Learning Material
 
-### General discussion
-
- - [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8)
-
 ### SEO/SMO & JavaScript
 
- - [Hacker News Comment](https://news.ycombinator.com/item?id=12759605) - This HN explains the problem with SEO and search engines other than Google.
- - [Tweet from Google employee](https://twitter.com/Paul_Kinlan/status/1039852756113080320) - Tweet about delayed indexing for pure client-side.
+ - [Hacker News Comment](https://news.ycombinator.com/item?id=12759605) - This HN comment explains the problem with SEO and search engines other than Google.
+ - [Tweet from Google employee](https://twitter.com/Paul_Kinlan/status/1039852756113080320) - Tweet about delayed Google indexing for pure client-side.
  - [What's Server Side Rendering and do I need it?](https://medium.com/@baphemot/whats-server-side-rendering-and-do-i-need-it-cb42dc059b38) - Good summary about the issues of JavaScript-generated-content.
  - [Deliver search-friendly JavaScript-powered websites (Google I/O '18)](https://www.youtube.com/watch?v=PFwUbgvpdaQ) - Talk that mentions how the Google crawler executes JavaScript. Main take away: Google does index JavaScript-generated-content but with a delay.
 
@@ -129,6 +125,10 @@ Leading to the following techniques:
  - [The Complete Guide for SSR with Vue](https://ssr.vuejs.org/) - Official guide.
  - [Reactjs SSR Tips and Tricks](https://medium.com/@atahani/reactjs-ssr-tips-and-tricks-be9edff5b7bb)
  - [Server-side rendering with create-react-app, code-splitting, preloaded data, React Router, Helmet, Redux, and Thunk](https://medium.com/@cereallarceny/server-side-rendering-in-create-react-app-with-all-the-goodies-without-ejecting-4c889d7db25e) - Walkthrough of implementing a SSR app based on CRA (without having ejected).
+
+### General discussion
+
+ - [The Benefits of Server Side Rendering Over Client Side Rendering](https://medium.com/walmartlabs/the-benefits-of-server-side-rendering-over-client-side-rendering-5d07ff2cefe8)
 
 
 
