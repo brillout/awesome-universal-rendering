@@ -18,7 +18,7 @@ Awesome resources about universal rendering. Including:
 
 Modern view libraries (React, Vue, Angular, etc.) render views to the DOM in the browser but they can as well render views to HTML in Node.js.
 This capability can be used to render the same view twice:
-First to HTML then again to the DOM. (Re-rendering the view in the browser is called *hydrating*)
+First to HTML then again to the DOM. (Re-rendering the view in the browser is called *hydrating*.)
 This practice is called *universal rendering* (aka isomorphic rendering).
 
 Universal rendering leads to improvements in SEO, SMO and performance.
@@ -31,8 +31,8 @@ There are several techniques to achieve universal rendering:
 
 In the following we explain these techniques and the benefits of universal rendering.
 
-- [Techniques](#techniques)
 - [Benefits](#benefits)
+- [Techniques](#techniques)
 
 ### Benefits
 
@@ -43,9 +43,10 @@ Such JavaScript-generated-content is invisible to crawlers that don't execute Ja
 Most crawlers (search engines and social sites) don't execute JavaScript.
 
 The Google crawler is
-the only one that can successfuly index JavaScript-generated-content.
-But it has limitations (mainly around delayed indexing and client-side routing).
-(See [Learning Material](#learning-material) section.)
+the only one that can successfully index JavaScript-generated-content.
+But it has limitations.
+(Mainly around delayed indexing and client-side routing,
+see [Learning Material](#learning-material) section.)
 
 If you want your content to be crawled by all other search engines (Bing, Baidu, DuckDuckGo, etc.), then your content needs to be included in your website's HTML.
 
