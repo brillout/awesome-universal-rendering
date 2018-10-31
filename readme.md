@@ -227,7 +227,7 @@ Leading to the following techniques:
  - [Next.js](https://github.com/zeit/next.js)
  - [After.js](https://github.com/jaredpalmer/after.js) - Similar to Next.js but with routing based on React Router.
  - [React Server](https://github.com/redfin/react-server)
- - [Reframe](https://github.com/reframejs/reframe) - Does SSR by default.
+ - [Reframe](https://github.com/reframejs/reframe) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
  - [Fusion.js](https://github.com/fusionjs) - Plugin-based universal web framework maintained by Uber.
 
 ##### Libraries
@@ -242,7 +242,7 @@ Leading to the following techniques:
  - [React Static](https://github.com/nozzle/react-static) - Static site generator based on React and focused on simplicity.
  - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
  - [Next.js](https://github.com/zeit/next.js) - Although primarily focused on SSR, Next.js can also generate static sites.
- - [Reframe](https://github.com/reframejs/reframe) - Reframe can generate static sites.
+ - [Reframe](https://github.com/reframejs/reframe) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
 
 #### Pre-Rendering
 
@@ -283,7 +283,7 @@ Automatically and regularly render your deployed website to HTML.
 ##### Frameworks
 
  - [Nuxt](https://github.com/nuxt/nuxt.js) - Similar to Next.js but for Vue.
- - [Reframe](https://github.com/reframejs/reframe) - Reframe can be used with Vue.
+ - [Reframe](https://github.com/reframejs/reframe) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
 
 ##### Libraries
 
@@ -292,7 +292,7 @@ Automatically and regularly render your deployed website to HTML.
 #### Static Site Generators
 
  - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
- - [Reframe](https://github.com/reframejs/reframe) - Reframe can generate static sites and can be used with Vue.
+ - [Reframe](https://github.com/reframejs/reframe) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
 
 #### Pre-Rendering
 
@@ -367,7 +367,7 @@ Automatically and regularly render your deployed website to HTML.
 #### Static Site Generators
 
  - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
- - [Reframe](https://github.com/reframejs/reframe) - Reframe can generate static sites.
+ - [Reframe](https://github.com/reframejs/reframe) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
 
 #### Pre-Rendering
 
