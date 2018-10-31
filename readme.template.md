@@ -4,20 +4,20 @@ Comprehensive list of resources about universal rendering. Including:
  - Tools (SSR, SSG, Pre-rendering)
  - Learning Material (SEO and performance benefits of universal rendering, how to implement, etc.)
 
-Modern view libraries (React, Vue, Angular, etc.) can render views to the DOM in the browser but as well .
-This is called universal rendering or ismorphic rendering.
+Modern view libraries (React, Vue, Angular, etc.) render views to the DOM in the browser but they can as well render views to HTML in Node.js.
+This capability can be used to render the same view twice:
+First to HTML then again to the DOM. (Re-rendering the view in the browser is called *hydrating*)
+This practice is called *universal rendering* (aka isomorphic rendering).
 
-To leverage to
-Rendering interactive views to HTML lead to improvements in SEO, SMO and performance.
-To improve SEO, SMO, and performance.
+Universal rendering leads to improvements in SEO, SMO and performance.
 
-The techniques to render JavaScript-generated-content to HTML are:
+There are several techniques to achieve universal rendering:
 
  - Server-Side Rendering (SSR)
- - Pre-Rendering
  - Static Site Generators (SSG)
+ - Pre-Rendering
 
-They are explained in the [Introduction](#introduction).
+These techniques and the benefits of universal rendering are explained in the [Introduction](#introduction).
 
 #### Contents
 
@@ -33,45 +33,13 @@ They are explained in the [Introduction](#introduction).
 
 Modern frontends (React, Vue, Angular, ...) use JavaScript to load and display content.
 Such JavaScript-generated-content is invisible to crawlers that don't execute JavaScript.
-Most crawlers don't execute JavaScript.
+Most crawlers (search engines and social sites) don't execute JavaScript.
 Server-Side Rendering (SSR), Pre-Rendering, and Static Site Generators (SSG) are techniques to render JavaScript-generated-content to HTML.
 Making the content visible to crawlers.
 It also improves performance.
 
-#### Contents
-
-- [SEO](#seo)
-- [SMO](#smo)
-- [Performance](#performance)
 - [Techniques](#techniques)
-
-### SEO
-
-The Google crawler is
-the only crawler that executes JavaScript.
-All other crawlers rely on HTML exclusively.
-If you want your content to be crawled by all other search engines (Bing, Baidu, DuckDuckGo, etc.), then your content needs to be included in your website's HTML.
-
-Also, Google's capability to execute JavaScript has limitations.
-(See the Google I/O '18 talk [Deliver search-friendly JavaScript-powered websites](https://www.youtube.com/watch?v=PFwUbgvpdaQ).)
-It is safer to include your content to your website's HTML
-rather than to rely on Google's crawler to execute your website's JavaScript.
-
-### SMO
-
-The crawler of social media sites (Facebook, Twitter, ...) don't execute JavaScript and rely solely on HTML.
-
-If you want your website to be correctly previewed when a user shares your website, then the corresponding information needs to be included in your website's HTML.
-
-(SMO means "Social Media Optimization".)
-
-### Performance
-
-Rendering your website's pages to HTML decreases the perceived loading time:
-Once the HTML is loaded, content can already be displayed before any JavaScript is loaded/executed.
-
-The improvement is considerable on mobile
-where loading/executing JavaScript is much slower.
+- [Benefits](#benefits)
 
 ### Techniques
 
@@ -79,7 +47,7 @@ There are two ways to render JavaScript-generated-content to HTML:
 
 - **Directly render to HTML**
   <br/>
-  Most modern view libraries (React, Vue, Angular, ...) can directly render to HTML (instead of rendering to the DOM).
+  Most modern view libraries (React, Vue, Angular, ...) can render views to HTML (instead of rendering to the DOM).
   (E.g. a React component can be rendered to HTML with `require('react-dom/server').renderToStaticMarkup()`.)
 - **Render to HTML via headless browser**
   <br/>
@@ -106,10 +74,38 @@ Leading to the following techniques:
   <br/>
   A static website is a website that doesn't have any server code:
   The website is composed of static browser assets only (HTML, CSS, JavaScript, images, ...).
-  Some generators can directly render views to HTML:
+  Some generators render your views to HTML at build-time:
   When your website is built, each page is rendered to a HTML file that includes all the page's content.
   <br/>
   If your content may only change at deploy-time, then using a SSG is an option.
+
+### Benefits
+
+#### SEO
+
+The Google crawler is
+the only crawler that executes JavaScript.
+All other crawlers rely on HTML.
+If you want your content to be crawled by all other search engines (Bing, Baidu, DuckDuckGo, etc.), then your content needs to be included in your website's HTML.
+
+Also, Google's capability to execute JavaScript has limitations.
+(See [Learning Material](#learning-material) section.)
+
+#### SMO
+
+The crawler of social media sites (Facebook, Twitter, ...) don't execute JavaScript and rely on HTML exclusively.
+
+If you want your website to be correctly previewed when a user shares your website, then the corresponding information needs to be included in your website's HTML.
+
+(SMO means "Social Media Optimization".)
+
+#### Performance
+
+Rendering your website's pages to HTML decreases the perceived loading time:
+Once the HTML is loaded, content can already be displayed before any JavaScript is loaded/executed.
+
+The improvement is considerable on mobile
+where loading and executing JavaScript is much slower.
 
 
 
