@@ -1,4 +1,4 @@
-# Awesome SSR [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Server Rendering [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 Comprehensive list of resources (tools and learning material) to render JavaScript-generated-content to HTML.
 To improve SEO, SMO, and performance.
