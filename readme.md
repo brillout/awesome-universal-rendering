@@ -84,7 +84,7 @@ The techniques to render JavaScript-generated-content to HTML are:
 
  - Server-Side Rendering (SSR)
  - Pre-Rendering
- - Static Site Generators
+ - Static Site Generators (SSG)
 
 They are explained in the [Introduction](#introduction).
 
@@ -103,7 +103,7 @@ They are explained in the [Introduction](#introduction).
 Modern frontends (React, Vue, Angular, ...) use JavaScript to load and display content.
 Such JavaScript-generated-content is invisible to crawlers that don't execute JavaScript.
 Most crawlers don't execute JavaScript.
-Server-Side Rendering (SSR), Pre-Rendering, and Static Site Generators are techniques to render JavaScript-generated-content to HTML.
+Server-Side Rendering (SSR), Pre-Rendering, and Static Site Generators (SSG) are techniques to render JavaScript-generated-content to HTML.
 Making the content visible to crawlers.
 It also improves performance.
 
@@ -171,14 +171,14 @@ Leading to the following techniques:
   A headless browser crawls your website, executes the website's JavaScript, and generates HTML upon the resulting DOM.
   Instead of using a headless browser,
   some pre-renderers directly render your pages to HTML.
-- **Static Site Generators**
+- **Static Site Generators (SSG)**
   <br/>
   A static website is a website that doesn't have any server code:
   The website is composed of static browser assets only (HTML, CSS, JavaScript, images, ...).
   Some generators can directly render views to HTML:
   When your website is built, each page is rendered to a HTML file that includes all the page's content.
   <br/>
-  If your content may only change at deploy-time, then using a Static Site Generator is an option.
+  If your content may only change at deploy-time, then using a SSG is an option.
 
 
 <br/>
@@ -200,17 +200,17 @@ Leading to the following techniques:
 
 - [React](#react)
   - [SSR](#ssr)
-  - [Static Site Generators](#static-site-generators)
+  - [SSG](#ssg)
   - [Pre-Rendering](#pre-rendering)
 - [Vue](#vue)
   - [SSR](#ssr-1)
-  - [Static Site Generators](#static-site-generators-1)
+  - [SSG](#ssg-1)
   - [Pre-Rendering](#pre-rendering-1)
 - [Angular](#angular)
   - [SSR](#ssr-2)
   - [Pre-Rendering](#pre-rendering-2)
 - [View Library Agnostic](#view-library-agnostic)
-  - [Static Site Generators](#static-site-generators-2)
+  - [SSG](#ssg-2)
   - [Pre-Rendering](#pre-rendering-3)
 
 
@@ -236,11 +236,11 @@ Leading to the following techniques:
  - [React Universal Component](https://github.com/faceyspacey/react-universal-component#readme) - Utility to code split your SSR app.
  - [Rogue.js](https://github.com/alidcastano/rogue.js#readme) - SSR utilities focused on flexibility. First-class support for React Router, Apollo GraphQL, Redux, Emotion, and Styled-Components. The build step is up to you (but you can use Razzle.)
 
-#### Static Site Generators
+#### SSG
 
- - [Gatsby.js](https://github.com/gatsbyjs/gatsby#readme) - Static site generator based on React and GraphQL.
- - [React Static](https://github.com/nozzle/react-static#readme) - Static site generator based on React and focused on simplicity.
- - [Phenomic](https://github.com/phenomic/phenomic#readme) - Static site generator based on a flexible plugin system.
+ - [Gatsby.js](https://github.com/gatsbyjs/gatsby#readme) - SSG based on React and GraphQL.
+ - [React Static](https://github.com/nozzle/react-static#readme) - SSG based on React and focused on simplicity.
+ - [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
  - [Next.js](https://github.com/zeit/next.js#readme) - Although primarily focused on SSR, Next.js can also generate static sites.
  - [Reframe](https://github.com/reframejs/reframe#readme) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
 
@@ -267,7 +267,7 @@ Automatically and regularly render your deployed website to HTML.
  - [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin#readme) - Uses Puppeteer to crawl & render your pages.
  - [react-snap](https://github.com/stereobooster/react-snap#readme) - Uses Puppeteer to crawl & render your pages.
  - [prep](https://github.com/prismagraphql/prep#readme) - Uses Chromeless to crawl & render your pages.
- - [Static site generator webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
+ - [SSG webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
  - [React Snapshot](https://github.com/geelen/react-snapshot#readme) - Pre-render React apps at build-time. Uses `require('react-dom/server').renderToString` to generate the HTML and uses JSDOM as headless browser to automatically discover your app's URLs.
 
 
@@ -289,9 +289,9 @@ Automatically and regularly render your deployed website to HTML.
 
  - [vue-server-renderer](https://www.npmjs.com/package/vue-server-renderer) - Official library for SSR with Vue.
 
-#### Static Site Generators
+#### SSG
 
- - [Phenomic](https://github.com/phenomic/phenomic#readme) - Static site generator based on a flexible plugin system.
+ - [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
  - [Reframe](https://github.com/reframejs/reframe#readme) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
 
 #### Pre-Rendering
@@ -317,7 +317,7 @@ Automatically and regularly render your deployed website to HTML.
  - [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin#readme) - Uses Puppeteer to crawl & render your pages.
  - [react-snap](https://github.com/stereobooster/react-snap#readme) - Uses Puppeteer to crawl & render your pages.
  - [prep](https://github.com/prismagraphql/prep#readme) - Uses Chromeless to crawl & render your pages.
- - [Static site generator webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
+ - [SSG webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
 
 
 
@@ -355,7 +355,7 @@ Automatically and regularly render your deployed website to HTML.
  - [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin#readme) - Uses Puppeteer to crawl & render your pages.
  - [react-snap](https://github.com/stereobooster/react-snap#readme) - Uses Puppeteer to crawl & render your pages.
  - [prep](https://github.com/prismagraphql/prep#readme) - Uses Chromeless to crawl & render your pages.
- - [Static site generator webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
+ - [SSG webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
 
 
 
@@ -364,9 +364,9 @@ Automatically and regularly render your deployed website to HTML.
 
 ### View Library Agnostic
 
-#### Static Site Generators
+#### SSG
 
- - [Phenomic](https://github.com/phenomic/phenomic#readme) - Static site generator based on a flexible plugin system.
+ - [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
  - [Reframe](https://github.com/reframejs/reframe#readme) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
 
 #### Pre-Rendering
@@ -392,7 +392,7 @@ Automatically and regularly render your deployed website to HTML.
  - [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin#readme) - Uses Puppeteer to crawl & render your pages.
  - [react-snap](https://github.com/stereobooster/react-snap#readme) - Uses Puppeteer to crawl & render your pages.
  - [prep](https://github.com/prismagraphql/prep#readme) - Uses Chromeless to crawl & render your pages.
- - [Static site generator webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
+ - [SSG webpack plugin](https://github.com/markdalgleish/static-site-generator-webpack-plugin#readme) - Directly render your pages to HTML. You provide render functions and routes. All routes are rendered at build-time using the render functions you provided. Also has a crawl mode to use a headless browser to automatically discover your website's URLs.
 
 
 <!---
