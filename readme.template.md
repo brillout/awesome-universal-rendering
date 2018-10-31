@@ -147,24 +147,24 @@ Leading to the following techniques:
 
 ##### Frameworks
 
- - [Next.js](https://github.com/zeit/next.js)
- - [After.js](https://github.com/jaredpalmer/after.js) - Similar to Next.js but with routing based on React Router.
- - [React Server](https://github.com/redfin/react-server)
+ - [Next.js](https://github.com/zeit/next.js#readme)
+ - [After.js](https://github.com/jaredpalmer/after.js#readme) - Similar to Next.js but with routing based on React Router.
+ - [React Server](https://github.com/redfin/react-server#readme)
 !INLINE ./reframe.md --hide-source-path
  - [Fusion.js](https://github.com/fusionjs) - Plugin-based universal web framework maintained by Uber.
 
 ##### Libraries
 
- - [Razzle](https://github.com/jaredpalmer/razzle) - Handles the building. You do the rest.
- - [React Universal Component](https://github.com/faceyspacey/react-universal-component) - Utility to code split your SSR app.
- - [Rogue.js](https://github.com/alidcastano/rogue.js) - SSR utilities focused on flexibility. First-class support for React Router, Apollo GraphQL, Redux, Emotion, and Styled-Components. The build step is up to you (but you can use Razzle.)
+ - [Razzle](https://github.com/jaredpalmer/razzle#readme) - Handles the building. You do the rest.
+ - [React Universal Component](https://github.com/faceyspacey/react-universal-component#readme) - Utility to code split your SSR app.
+ - [Rogue.js](https://github.com/alidcastano/rogue.js#readme) - SSR utilities focused on flexibility. First-class support for React Router, Apollo GraphQL, Redux, Emotion, and Styled-Components. The build step is up to you (but you can use Razzle.)
 
 #### Static Site Generators
 
- - [Gatsby.js](https://github.com/gatsbyjs/gatsby) - Static site generator based on React and GraphQL.
- - [React Static](https://github.com/nozzle/react-static) - Static site generator based on React and focused on simplicity.
- - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
- - [Next.js](https://github.com/zeit/next.js) - Although primarily focused on SSR, Next.js can also generate static sites.
+ - [Gatsby.js](https://github.com/gatsbyjs/gatsby#readme) - Static site generator based on React and GraphQL.
+ - [React Static](https://github.com/nozzle/react-static#readme) - Static site generator based on React and focused on simplicity.
+ - [Phenomic](https://github.com/phenomic/phenomic#readme) - Static site generator based on a flexible plugin system.
+ - [Next.js](https://github.com/zeit/next.js#readme) - Although primarily focused on SSR, Next.js can also generate static sites.
 !INLINE ./reframe.md --hide-source-path
 
 #### Pre-Rendering
@@ -172,7 +172,7 @@ Leading to the following techniques:
 !INLINE ./prerender-dynamic.md --hide-source-path
 
 !INLINE ./prerender-static.md --hide-source-path
- - [React Snapshot](https://github.com/geelen/react-snapshot) - Pre-render React apps at build-time. Uses `require('react-dom/server').renderToString` to generate the HTML and uses JSDOM as headless browser to automatically discover your app's URLs.
+ - [React Snapshot](https://github.com/geelen/react-snapshot#readme) - Pre-render React apps at build-time. Uses `require('react-dom/server').renderToString` to generate the HTML and uses JSDOM as headless browser to automatically discover your app's URLs.
 
 
 
@@ -186,7 +186,7 @@ Leading to the following techniques:
 
 ##### Frameworks
 
- - [Nuxt](https://github.com/nuxt/nuxt.js) - Similar to Next.js but for Vue.
+ - [Nuxt](https://github.com/nuxt/nuxt.js#readme) - Similar to Next.js but for Vue.
 !INLINE ./reframe.md --hide-source-path
 
 ##### Libraries
@@ -195,7 +195,7 @@ Leading to the following techniques:
 
 #### Static Site Generators
 
- - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
+ - [Phenomic](https://github.com/phenomic/phenomic#readme) - Static site generator based on a flexible plugin system.
 !INLINE ./reframe.md --hide-source-path
 
 #### Pre-Rendering
@@ -215,7 +215,7 @@ Leading to the following techniques:
 
 #### SSR
 
- - [Angular Universal](https://github.com/angular/universal) - Official packages for SSR with Angular.
+ - [Angular Universal](https://github.com/angular/universal#readme) - Official packages for SSR with Angular.
 
 #### Pre-Rendering
 
@@ -232,7 +232,7 @@ Leading to the following techniques:
 
 #### Static Site Generators
 
- - [Phenomic](https://github.com/phenomic/phenomic) - Static site generator based on a flexible plugin system.
+ - [Phenomic](https://github.com/phenomic/phenomic#readme) - Static site generator based on a flexible plugin system.
 !INLINE ./reframe.md --hide-source-path
 
 #### Pre-Rendering

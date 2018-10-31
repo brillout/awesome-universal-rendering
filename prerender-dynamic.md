@@ -12,4 +12,4 @@ Automatically and regularly render your deployed website to HTML.
 
 ##### Libraries
 
- - [Prerender.io Node Server](https://github.com/prerender/prerender) - The prerender.io Node Server is open source.
+ - [Prerender.io Node Server](https://github.com/prerender/prerender#readme) - The prerender.io Node Server is open source.

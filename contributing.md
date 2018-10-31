@@ -8,7 +8,7 @@ By participating in this project you agree to abide by its terms.
 Contribution guidelines:
 
 - Make an individual pull request for each suggestion.
-- Use the following format for adding a tool: ` - [Project Name](https://github.com/owner/repo) - Description without emojis.`.
+- Use the following format for adding a tool: ` - [Project Name](https://github.com/owner/repo#readme) - Description without emojis.`.
 - There is no format for the learning section.
 - Your addition should be added to the bottom of the relevant section.
 - If it doesn't fit any category then open a new issue so we can discuss improving the categorization.
