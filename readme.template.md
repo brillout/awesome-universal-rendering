@@ -1,6 +1,14 @@
-# Awesome Server Rendering [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Universal Rendering [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-Comprehensive list of tools and learning material to render JavaScript-generated-content to HTML.
+Comprehensive list of resources about universal rendering. Including:
+ - Tools (SSR, SSG, Pre-rendering)
+ - Learning Material (SEO and performance benefits of universal rendering, how to implement, etc.)
+
+Modern view libraries (React, Vue, Angular, etc.) can render views to the DOM in the browser but as well .
+This is called universal rendering or ismorphic rendering.
+
+To leverage to
+Rendering interactive views to HTML lead to improvements in SEO, SMO and performance.
 To improve SEO, SMO, and performance.
 
 The techniques to render JavaScript-generated-content to HTML are:
