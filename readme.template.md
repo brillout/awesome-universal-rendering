@@ -1,16 +1,16 @@
 # Awesome Universal Rendering [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 Awesome resources about universal rendering:
-- Introduction
+- **Introduction**
   <br/>
   Explains why universal rendering is beneficial,
   the different techniques for doing universal rendering (SSR, SSG, pre-rendering)
   and when to use what technique.
-- Learning Material
+- **Learning Material**
   - SEO benefits of universal rendering
   - Performance benefits of SSR
   - How to implement SSR
-- Tools
+- **Tools**
   - SSR frameworks & libraries
   - Pre-rendering services & tools
   - Static site generators
