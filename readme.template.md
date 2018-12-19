@@ -4,7 +4,7 @@ Awesome resources about universal rendering:
 - **Introduction**
   <br/>
   Explains why universal rendering is beneficial,
-  the different techniques for doing universal rendering (SSR, SSG, pre-rendering)
+  the different techniques of doing universal rendering (SSR, SSG, pre-rendering)
   and when to use what technique.
 - **Learning Material**
   - SEO benefits of universal rendering
