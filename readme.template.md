@@ -1,8 +1,19 @@
 # Awesome Universal Rendering [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-Awesome resources about universal rendering. Including:
- - Tools (SSR, SSG, Pre-rendering)
- - Learning Material (SEO benefits, performance benefits, how to implement, etc.)
+Awesome resources about universal rendering:
+- Introduction
+  <br/>
+  Explains why universal rendering is beneficial,
+  the different techniques for doing universal rendering (SSR, SSG, pre-rendering)
+  and when to use what technique.
+- Learning Material
+  - SEO benefits of universal rendering
+  - Performance benefits of SSR
+  - How to implement SSR
+- Tools
+  - SSR frameworks & libraries
+  - Pre-rendering services & tools
+  - Static site generators
 
 <br/>
 
@@ -114,7 +125,7 @@ Leading to the following techniques:
 
 ## Learning Material
 
-### SEO/SMO & JavaScript
+### SEO/SMO
 
  - [Hacker News Comment](https://news.ycombinator.com/item?id=12759605) - This HN comment explains the problem with SEO and search engines other than Google.
  - [Tweet from Google employee](https://twitter.com/Paul_Kinlan/status/1039852756113080320) - Tweet about delayed Google indexing for pure client-side.
