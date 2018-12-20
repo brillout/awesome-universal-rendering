@@ -1,5 +1,7 @@
 #### Static Pre-Rendering
 
+*Some static pre-renderers, instead of generating HTML upon a generated DOM, directly render your pages to HTML.*
+
  - [Prerender SPA Plugin](https://github.com/chrisvfritz/prerender-spa-plugin#readme) - Uses Puppeteer to crawl & render your pages.
  - [react-snap](https://github.com/stereobooster/react-snap#readme) - Uses Puppeteer to crawl & render your pages.
  - [prep](https://github.com/prismagraphql/prep#readme) - Uses Chromeless to crawl & render your pages.

@@ -27,7 +27,7 @@ Awesome resources about universal rendering:
 
 ## Introduction
 
-Modern view libraries (React, Vue, Angular, etc.) render views to the DOM in the browser but they can as well render views to HTML in Node.js.
+Modern view libraries (React, Vue, Angular, etc.) render views to the DOM in the browser but they can as well render views to HTML on the server.
 This capability can be used to render the same view twice:
 First to HTML then again to the DOM. (Re-rendering the view in the browser is called *hydrating*.)
 This practice is called *universal rendering* (aka isomorphic rendering).
@@ -57,7 +57,7 @@ The Google crawler is
 the only one that can successfully index JavaScript-generated-content.
 But it has limitations.
 (Mainly around delayed indexing and client-side routing,
-see [Learning Material](#learning-material) section.)
+see [Learning Material](#learning-material).)
 
 If you want your content to be crawled by all other search engines (Bing, Baidu, DuckDuckGo, etc.), then your content needs to be included in your website's HTML.
 
@@ -80,13 +80,13 @@ where loading and executing JavaScript is much slower.
 ### Techniques
 
 Server-Side Rendering (SSR), Pre-Rendering, and Static Site Generators (SSG) are techniques to render JavaScript-generated-content to HTML.
-Making the content visible to crawlers and improving performance as well.
+Making the content visible to crawlers and improving performance.
 
 There are two ways to render JavaScript-generated-content to HTML:
 
 - **Directly render to HTML**
   <br/>
-  Most modern view libraries (React, Vue, Angular, ...) can render views to HTML (instead of rendering to the DOM).
+  Modern view libraries (React, Vue, Angular, ...) can render views to HTML (in addition to be able to render views to the DOM).
   (E.g. a React component can be rendered to HTML with `require('react-dom/server').renderToStaticMarkup()`.)
 - **Render to HTML via headless browser**
   <br/>
@@ -107,16 +107,14 @@ Leading to the following techniques:
 - **Pre-Rendering**
   <br/>
   A headless browser crawls your website, executes the website's JavaScript, and generates HTML upon the resulting DOM.
-  Instead of using a headless browser,
-  some pre-renderers directly render your pages to HTML.
 - **Static Site Generators (SSG)**
   <br/>
-  A static website is a website that doesn't have any server code:
-  The website is composed of static browser assets only (HTML, CSS, JavaScript, images, ...).
-  Some generators render your views to HTML at build-time:
-  When your website is built, each page is rendered to a HTML file that includes all the page's content.
+  A static site is a website that doesn't have any server code:
+  The website is composed of static browser assets only (HTML, CSS, JavaScript, images, fonts, etc.).
+  Some SSG are able to render your views to HTML at build-time:
+  When your website is built, each page is rendered to a HTML file that includes your page's content.
   <br/>
-  If your content may only change at deploy-time, then using a SSG is an option.
+  If your content only changes at deploy-time, then using a SSG is an option.
 
 
 
@@ -206,7 +204,7 @@ Leading to the following techniques:
 !INLINE ./prerender-dynamic.md --hide-source-path
 
 !INLINE ./prerender-static.md --hide-source-path
- - [React Snapshot](https://github.com/geelen/react-snapshot#readme) - Pre-render React apps at build-time. Uses `require('react-dom/server').renderToString` to generate the HTML and uses JSDOM as headless browser to automatically discover your app's URLs.
+ - [React Snapshot](https://github.com/geelen/react-snapshot#readme) - Pre-renders React apps at build-time. Uses `require('react-dom/server').renderToString` to directly render the HTML. Uses JSDOM as headless browser to automatically discover your app's URLs.
 
 
 
