@@ -7,7 +7,7 @@
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
@@ -22,7 +22,7 @@
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
@@ -37,7 +37,7 @@
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
@@ -52,7 +52,7 @@
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
@@ -67,7 +67,7 @@
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
@@ -252,14 +252,15 @@ Leading to the following techniques:
 
 ##### Frameworks
 
- - [Next.js](https://github.com/zeit/next.js#readme)
+ - [Next.js](https://github.com/zeit/next.js#readme) - The most popular SSR tool.
  - [After.js](https://github.com/jaredpalmer/after.js#readme) - Similar to Next.js but with routing based on React Router.
  - [React Server](https://github.com/redfin/react-server#readme)
- - [Reframe](https://github.com/reframejs/reframe#readme) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
+ - [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
  - [Fusion.js](https://github.com/fusionjs) - Plugin-based universal web framework maintained by Uber.
 
 ##### Libraries
 
+ - [ssr-coin](https://github.com/reframejs/ssr-coin) - As easy as Next.js but as a do-one-thing-do-it-well library.
  - [Razzle](https://github.com/jaredpalmer/razzle#readme) - Handles the building. You do the rest.
  - [React Universal Component](https://github.com/faceyspacey/react-universal-component#readme) - Utility to code split your SSR app.
  - [Rogue.js](https://github.com/alidcastano/rogue.js#readme) - SSR utilities focused on flexibility. First-class support for React Router, Apollo GraphQL, Redux, Emotion, and Styled-Components. The build step is up to you (but you can use Razzle.)
@@ -272,9 +273,10 @@ Leading to the following techniques:
 
  - [Gatsby.js](https://github.com/gatsbyjs/gatsby#readme) - SSG based on React and GraphQL.
  - [React Static](https://github.com/nozzle/react-static#readme) - SSG based on React and focused on simplicity.
+ - [ssr-coin](https://github.com/reframejs/ssr-coin) - As easy as Next.js but as a do-one-thing-do-it-well library. Can be used as SSG.
  - [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
  - [Next.js](https://github.com/zeit/next.js#readme) - Although primarily focused on SSR, Next.js can also generate static sites.
- - [Reframe](https://github.com/reframejs/reframe#readme) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
+ - [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
 
 #### Pre-Rendering
 
@@ -317,16 +319,17 @@ Automatically and regularly render your deployed website to HTML.
 ##### Frameworks
 
  - [Nuxt](https://github.com/nuxt/nuxt.js#readme) - Similar to Next.js but for Vue.
- - [Reframe](https://github.com/reframejs/reframe#readme) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
+ - [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
 
 ##### Libraries
 
  - [vue-server-renderer](https://www.npmjs.com/package/vue-server-renderer) - Official library for SSR with Vue.
+ - [ssr-coin](https://github.com/reframejs/ssr-coin) - As easy as Nuxt but as a do-one-thing-do-it-well library.
 
 #### SSG
 
  - [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
- - [Reframe](https://github.com/reframejs/reframe#readme) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
+ - [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
 
 #### Pre-Rendering
 
@@ -405,7 +408,7 @@ Automatically and regularly render your deployed website to HTML.
 #### SSG
 
  - [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
- - [Reframe](https://github.com/reframejs/reframe#readme) - A web framework that aims to be truly flexible (no lock-in, everything is ejectable.) It does SSR by default and can be used as SSG.
+ - [Reframe](https://github.com/reframejs/reframe#readme) - Flexible web framework. It does SSR by default and can be used as SSG.
 
 #### Pre-Rendering
 
@@ -444,7 +447,7 @@ Automatically and regularly render your deployed website to HTML.
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
@@ -459,7 +462,7 @@ Automatically and regularly render your deployed website to HTML.
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
@@ -474,7 +477,7 @@ Automatically and regularly render your deployed website to HTML.
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
@@ -489,7 +492,7 @@ Automatically and regularly render your deployed website to HTML.
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
@@ -504,7 +507,7 @@ Automatically and regularly render your deployed website to HTML.
 
     WARNING, READ THIS.
     This is a computed file. Do not edit.
-    Edit `/readme.template.md` instead.
+    Instead, edit `/readme.template.md` and run `npm run docs` (or `yarn docs`).
 
 
 
