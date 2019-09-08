@@ -183,7 +183,7 @@ Leading to the following techniques:
 
 ##### Libraries
 
- - [ssr-coin](https://github.com/reframejs/ssr-coin) - As easy as Next.js but as a do-one-thing-do-it-well library.
+ - [Goldpage](https://github.com/reframejs/goldpage) - A do-one-thing-do-it-well library that supports all app types; "SPA", "SSR", "Static Website", etc.
  - [Razzle](https://github.com/jaredpalmer/razzle#readme) - Handles the building. You do the rest.
  - [React Universal Component](https://github.com/faceyspacey/react-universal-component#readme) - Utility to code split your SSR app.
  - [Rogue.js](https://github.com/alidcastano/rogue.js#readme) - SSR utilities focused on flexibility. First-class support for React Router, Apollo GraphQL, Redux, Emotion, and Styled-Components. The build step is up to you (but you can use Razzle.)
@@ -196,7 +196,7 @@ Leading to the following techniques:
 
  - [Gatsby.js](https://github.com/gatsbyjs/gatsby#readme) - SSG based on React and GraphQL.
  - [React Static](https://github.com/nozzle/react-static#readme) - SSG based on React and focused on simplicity.
- - [ssr-coin](https://github.com/reframejs/ssr-coin) - As easy as Next.js but as a do-one-thing-do-it-well library. Can be used as SSG.
+ - [Goldpage](https://github.com/reframejs/goldpage) - A do-one-thing-do-it-well library that supports all app types; "SPA", "SSR", "Static Website", etc.
  - [Phenomic](https://github.com/phenomic/phenomic#readme) - SSG based on a flexible plugin system.
  - [Next.js](https://github.com/zeit/next.js#readme) - Although primarily focused on SSR, Next.js can also generate static sites.
 !INLINE ./reframe.md --hide-source-path
@@ -226,7 +226,7 @@ Leading to the following techniques:
 ##### Libraries
 
  - [vue-server-renderer](https://www.npmjs.com/package/vue-server-renderer) - Official library for SSR with Vue.
- - [ssr-coin](https://github.com/reframejs/ssr-coin) - As easy as Nuxt but as a do-one-thing-do-it-well library.
+ - [Goldpage](https://github.com/reframejs/goldpage) - A do-one-thing-do-it-well library that supports all app types; "SPA", "SSR", "Static Website", etc.
 
 #### SSG
 
